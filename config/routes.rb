@@ -53,4 +53,9 @@ Pdf::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
+  get 'cv_generate/index'
+
+  root :to => 'cv_generate#index'
+
 end
