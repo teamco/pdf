@@ -1,0 +1,25 @@
+<div class="page main {{section}}">
+    <div class="header">
+        <a href="#/home" class="logo"></a
+        ><div class="toolbar">
+            <button><i class="undo"></i>Undo</button>
+            <button><i class="redo"></i>Redo</button>
+            <button><i class="save"></i>Save</button>
+            <button><i class="download"></i>Download</button>
+        </div>
+        <div class="toolbar right">
+            <button><i class="help"></i>Help</button>
+            <button>Login</button>
+            <button>Sign Up</button>
+        </div>
+    </div>
+    <div class="nav">
+        <ul class="sections">
+            <li ng-repeat="section in sections | mapToArray:'id' | orderBy:'order'" ng-class="section.cls"><a href="#/main/{{section.id}}">{{section.text}}</a></li>
+        </ul>
+        <ul class="actions">
+            <li ng-repeat="action in sections[section].actions | mapToArray:'id' | orderBy:'order'">{{action.text}}</li>
+        </ul>
+    </div>
+    <div class="content" ng-include="contentTemplateUrl"></div>
+</div>
