@@ -54,8 +54,8 @@ Pdf::Application.routes.draw do
   #     resources :products
   #   end
 
-  get 'cv_generate/index'
+  get 'home/index'
 
-  root :to => 'cv_generate#index'
+  root :to => 'home#index'
 
 end

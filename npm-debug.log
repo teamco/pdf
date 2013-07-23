@@ -1,0 +1,52 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'less' ]
+2 info using npm@1.2.14
+3 info using node@v0.8.22
+4 verbose read json /usr/local/lib/package.json
+5 verbose read json /usr/local/lib/package.json
+6 verbose cache add [ 'less', null ]
+7 verbose cache add name=undefined spec="less" args=["less",null]
+8 verbose parsed url { pathname: 'less', path: 'less', href: 'less' }
+9 silly lockFile 0b439cf4-less less
+10 verbose lock less /Users/i061485/.npm/0b439cf4-less.lock
+11 silly lockFile 0b439cf4-less less
+12 silly lockFile 0b439cf4-less less
+13 verbose addNamed [ 'less', '' ]
+14 verbose addNamed [ null, '' ]
+15 silly lockFile e13833ab-less less@
+16 verbose lock less@ /Users/i061485/.npm/e13833ab-less.lock
+17 silly addNameRange { name: 'less', range: '', hasData: false }
+18 verbose url raw less
+19 verbose url resolving [ 'https://registry.npmjs.org/', './less' ]
+20 verbose url resolved https://registry.npmjs.org/less
+21 info trying registry request attempt 1 at 16:38:03
+22 http GET https://registry.npmjs.org/less
+23 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect EHOSTUNREACH
+24 info trying registry request attempt 2 at 16:38:13
+25 http GET https://registry.npmjs.org/less
+26 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect EHOSTUNREACH
+27 info trying registry request attempt 3 at 16:39:13
+28 http GET https://registry.npmjs.org/less
+29 silly lockFile e13833ab-less less@
+30 silly lockFile e13833ab-less less@
+31 error Error: tunneling socket could not be established, cause=connect EHOSTUNREACH
+31 error     at ClientRequest.onError (/usr/local/lib/node_modules/npm/node_modules/request/tunnel.js:161:17)
+31 error     at ClientRequest.g (events.js:192:14)
+31 error     at ClientRequest.EventEmitter.emit (events.js:96:17)
+31 error     at CleartextStream.socketErrorListener (http.js:1449:9)
+31 error     at CleartextStream.EventEmitter.emit (events.js:96:17)
+31 error     at Socket.onerror (tls.js:1336:17)
+31 error     at Socket.EventEmitter.emit (events.js:126:20)
+31 error     at Socket._destroy.self.errorEmitted (net.js:329:14)
+31 error     at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+32 error If you need help, you may report this log at:
+32 error     <http://github.com/isaacs/npm/issues>
+32 error or email it to:
+32 error     <npm-@googlegroups.com>
+33 error System Darwin 12.4.0
+34 error command "node" "/usr/local/bin/npm" "install" "-g" "less"
+35 error cwd /Users/i061485/Documents/Project/git/pdf
+36 error node -v v0.8.22
+37 error npm -v 1.2.14
+38 error code ECONNRESET
+39 verbose exit [ 1, true ]

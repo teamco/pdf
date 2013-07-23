@@ -12,5 +12,11 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require lib/angular.min
+//= require app
+//= require filters
+//= require routes
+//= require directives
+//= require controllers
 //= require turbolinks
 //= require_tree .
