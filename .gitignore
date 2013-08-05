@@ -17,3 +17,4 @@ logs/*
 .idea/lessc/lessc.xml
 log/development.log
 .idea/scopes/scope_settings.xml
+tmp/*
