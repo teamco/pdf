@@ -1,0 +1,73 @@
+@header-background-color: #81C35F;
+@sub-header-background-color: #929C93;
+@body-title-color: #7a6;
+@body-date-color: #666;
+
+.main.preview .preview-area {
+  padding: 0.25in;
+  list-style: none;
+  .x-large,
+  .large,
+  .medium,
+  .small {
+    font-family: "Century Gothic", Trebuchet, Verdana, Helvetica, sans-serif;
+  }
+  .x-large {
+    font-size: 1.625em;
+  }
+  .large {
+    font-size: 1em;
+  }
+  .medium {
+    font-size: 0.8125em;
+  }
+  .small {
+    font-size: 0.75em;
+  }
+  ul {
+    font-family: inherit;
+    list-style: none;
+  }
+  h1, h2, h3 {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: normal;
+  }
+  .header {
+    position: relative;
+    font-family: inherit;
+    background-color: @header-background-color;
+    padding: 0.25em;
+    text-align: right;
+    h1 {
+      position: absolute;
+      top: 0.25em;
+      left: 0.25em;
+    }
+  }
+  .sub-header {
+    margin-top: 0.1875em;
+    padding: 0.25em;
+    background-color: @sub-header-background-color;
+    text-align: right;
+  }
+  .body {
+    padding-left: 8em;
+    h2 {
+      margin-top: 0.625em;
+      color: @body-title-color;
+    }
+    h3 {
+      font-weight: bold;
+    }
+    .item {
+      position: relative;
+      .date {
+        position: absolute;
+        top: 0;
+        left: -8em;
+        color: @body-date-color;
+      }
+    }
+  }
+}

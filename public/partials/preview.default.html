@@ -1,0 +1,48 @@
+<li class="header">
+    <h1 class="name"><span class="x-large">{{data.info[0].fullName}}</span></h1>
+    <ul class="address">
+        <li ng-repeat="address in data.addresses">
+            <p class="small">{{address.streetAddress}}</p>
+            <p class="small">{{address.extendedAddress}}</p>
+            <p class="small">{{address.city}}, {{address.state}} {{address.zip}}</p>
+        </li>
+        <li>
+            <p class="small">{{data.phones | join:'phoneNumber'}}</p>
+        </li>
+    </ul>
+</li>
+<li class="sub-header">
+    <ul class="email">
+        <li ng-repeat="email in data.emails">
+            <p class="small">{{email.emailAddress}}</p>
+        </li>
+    </ul>
+</li>
+<li class="body">
+    <h2><span class="large">{{data.objective[0].objective}}</span></h2>
+    <p class="medium">{{data.objective[0].objectiveStatement}}</p>
+</li>
+<li class="body">
+    <h2><span class="large">{{data.education[0].education}}</span></h2>
+    <ul>
+        <li ng-repeat="institution in data.institution" class="item">
+            <p class="date"><span class="medium">{{institution.institutionStartDate}} &ndash; {{institution.institutionEndDate | default:'Pres.'}}</span></p>
+            <p>
+                <h3><span class="medium">{{institution.institution}}</span></h3>
+                <p class="medium">{{institution.primaryDegree}}</p>
+            </p>
+        </li>
+    </ul>
+</li>
+<li class="body">
+    <h2><span class="large">{{data.experience[0].experience}}</span></h2>
+    <ul>
+        <li ng-repeat="job in data.job" class="item">
+            <p class="date"><span class="medium">{{job.jobStartDate}} &ndash; {{job.jobEndDate | default:'Pres.'}}</span></p>
+            <p>
+                <h3><span class="medium">{{job.jobOrganization}}</span></h3>
+                <p class="medium">{{job.jobTitle}}</p>
+            </p>
+        </li>
+    </ul>
+</li>
