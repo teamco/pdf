@@ -3118,3 +3118,252 @@ Started GET "/assets/sprites.png" for 127.0.0.1 at 2013-07-23 17:16:08 +0300
 
 
 Started GET "/assets/tip-west.png" for 127.0.0.1 at 2013-07-23 17:16:08 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-23 17:27:06 +0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 114ms (Views: 95.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-23 17:27:06 +0300
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-07-23 17:27:06 +0300
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-07-23 17:27:06 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-23 17:27:06 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-23 17:27:06 +0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-07-23 17:27:06 +0300
+
+
+Started GET "/assets/lib/angular.min.js?body=1" for 127.0.0.1 at 2013-07-23 17:27:06 +0300
+
+
+Started GET "/assets/filters.js?body=1" for 127.0.0.1 at 2013-07-23 17:27:06 +0300
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2013-07-23 17:27:06 +0300
+
+
+Started GET "/assets/routes.js?body=1" for 127.0.0.1 at 2013-07-23 17:27:06 +0300
+
+
+Started GET "/assets/directives.js?body=1" for 127.0.0.1 at 2013-07-23 17:27:06 +0300
+
+
+Started GET "/assets/controllers.js?body=1" for 127.0.0.1 at 2013-07-23 17:27:06 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-23 17:27:06 +0300
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-07-23 17:27:06 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-23 17:27:06 +0300
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-07-23 17:27:06 +0300
+
+
+Started GET "/assets/sprites.png" for 127.0.0.1 at 2013-07-23 17:27:06 +0300
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2013-07-23 17:27:06 +0300
+
+
+Started GET "/assets/tip-west.png" for 127.0.0.1 at 2013-07-23 17:27:06 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-24 13:39:28 +0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 51ms (Views: 50.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-24 13:39:28 +0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-07-24 13:39:28 +0300
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-07-24 13:39:29 +0300
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-07-24 13:39:29 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-24 13:39:29 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-24 13:39:29 +0300
+
+
+Started GET "/assets/lib/angular.min.js?body=1" for 127.0.0.1 at 2013-07-24 13:39:29 +0300
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2013-07-24 13:39:29 +0300
+
+
+Started GET "/assets/filters.js?body=1" for 127.0.0.1 at 2013-07-24 13:39:29 +0300
+
+
+Started GET "/assets/routes.js?body=1" for 127.0.0.1 at 2013-07-24 13:39:29 +0300
+
+
+Started GET "/assets/directives.js?body=1" for 127.0.0.1 at 2013-07-24 13:39:29 +0300
+
+
+Started GET "/assets/controllers.js?body=1" for 127.0.0.1 at 2013-07-24 13:39:29 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-24 13:39:29 +0300
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-07-24 13:39:29 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-24 13:39:29 +0300
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-07-24 13:39:29 +0300
+
+
+Started GET "/assets/sprites.png" for 127.0.0.1 at 2013-07-24 13:39:29 +0300
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2013-07-24 13:39:29 +0300
+
+
+Started GET "/assets/tip-west.png" for 127.0.0.1 at 2013-07-24 13:39:29 +0300
+
+
+Started GET "/assets/home.jpg" for 127.0.0.1 at 2013-07-24 13:39:30 +0300
+
+
+Started GET "/assets/press.jpg" for 127.0.0.1 at 2013-07-24 13:39:30 +0300
+
+
+Started GET "/assets/linkedin-profile.png" for 127.0.0.1 at 2013-07-24 13:39:30 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-24 13:39:32 +0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-24 13:39:32 +0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-07-24 13:39:32 +0300
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-07-24 13:39:32 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-24 13:39:32 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-24 13:39:32 +0300
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-07-24 13:39:32 +0300
+
+
+Started GET "/assets/lib/angular.min.js?body=1" for 127.0.0.1 at 2013-07-24 13:39:32 +0300
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2013-07-24 13:39:32 +0300
+
+
+Started GET "/assets/filters.js?body=1" for 127.0.0.1 at 2013-07-24 13:39:32 +0300
+
+
+Started GET "/assets/routes.js?body=1" for 127.0.0.1 at 2013-07-24 13:39:32 +0300
+
+
+Started GET "/assets/directives.js?body=1" for 127.0.0.1 at 2013-07-24 13:39:32 +0300
+
+
+Started GET "/assets/controllers.js?body=1" for 127.0.0.1 at 2013-07-24 13:39:32 +0300
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-07-24 13:39:32 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-24 13:39:32 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-24 13:39:32 +0300
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2013-07-24 13:39:32 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-29 15:56:32 +0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 540ms (Views: 539.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-07-29 15:56:34 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 15:56:34 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 15:56:34 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 15:56:34 +0300
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-07-29 15:56:34 +0300
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-07-29 15:56:34 +0300
+
+
+Started GET "/assets/lib/angular.min.js?body=1" for 127.0.0.1 at 2013-07-29 15:56:34 +0300
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2013-07-29 15:56:34 +0300
+
+
+Started GET "/assets/filters.js?body=1" for 127.0.0.1 at 2013-07-29 15:56:34 +0300
+
+
+Started GET "/assets/routes.js?body=1" for 127.0.0.1 at 2013-07-29 15:56:34 +0300
+
+
+Started GET "/assets/controllers.js?body=1" for 127.0.0.1 at 2013-07-29 15:56:34 +0300
+
+
+Started GET "/assets/directives.js?body=1" for 127.0.0.1 at 2013-07-29 15:56:34 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-29 15:56:34 +0300
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-07-29 15:56:34 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 15:56:34 +0300
+
+
+Started GET "/assets/tip-west.png" for 127.0.0.1 at 2013-07-29 15:56:36 +0300
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-07-29 15:56:36 +0300
+
+
+Started GET "/assets/sprites.png" for 127.0.0.1 at 2013-07-29 15:56:36 +0300

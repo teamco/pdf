@@ -13,3 +13,7 @@
 .idea/workspace.xml
 tmp/pids/*
 logs/*
+.idea/dataSources.xml
+.idea/lessc/lessc.xml
+log/development.log
+.idea/scopes/scope_settings.xml
