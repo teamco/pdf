@@ -1,0 +1,15 @@
+.idea/*
+.idea/.generators
+.idea/.name
+.idea/.rakeTasks
+.idea/dataSources.ids
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/pdf.iml
+.idea/railways.cache
+.idea/scopes/
+.idea/vcs.xml
+.idea/workspace.xml
+tmp/pids/*
+logs/*
