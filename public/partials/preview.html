@@ -1,1 +1,14 @@
-Preview
+<div ng-controller="MainPreviewController">
+    <div class="toolbar">
+        <select class="preview-font-size-select">
+            <option value="8">8pt</option>
+            <option value="10">10pt</option>
+            <option value="12" selected>12pt</option>
+            <option value="14">14pt</option>
+            <option value="16">16pt</option>
+        </select
+        ><button class="margins-button">Margins</button
+        ><span class="reset-button">Reset Settings</span>
+    </div>
+    <ul ng-include="'partials/preview.default.html'" class="preview-area"></ul>
+</div>

@@ -1,0 +1,58 @@
+{
+    "info": [{
+        "fullName": "John Doe"
+    }],
+    "addresses": [{
+        "addressLabel": "Home",
+        "streetAddress": "Street st. 11",
+        "extendedAddress": "apt. 11",
+        "city": "City",
+        "state": "State",
+        "zip": "11111"
+    }],
+    "phones": [{
+        "phoneType": "Home",
+        "phoneNumber": "0123456789"
+    }, {
+        "phoneType": "Mobile",
+        "phoneNumber": "1472583690"
+    }],
+    "emails": [{
+        "emailLabel": "Private",
+        "emailAddress": "john.doe@home.me"
+    }, {
+        "emailLabel": "Public",
+        "emailAddress": "john.doe@gmail.com"
+    }],
+    "objective": [{
+        "objective": "Summary",
+        "objectiveStatement": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus sed orci ut ornare. Integer consequat viverra nibh in congue. Curabitur eu consequat quam. Sed sollicitudin commodo mauris, vestibulum malesuada mauris aliquet sed. Suspendisse sodales arcu vitae sapien semper tempor. Mauris blandit suscipit nibh. Sed convallis libero urna, et scelerisque tortor cursus at. Donec eleifend nunc arcu, vel varius leo vehicula at. Nunc non sodales ipsum, eu aliquet tellus. Duis vitae magna felis."
+    }],
+    "education": [{
+        "education": "Education"
+    }],
+    "institution": [{
+        "institution": "Institution",
+        "primaryDegree": "BA, Primary Degree",
+        "institutionStartDate": "1989",
+        "institutionEndDate": "1993"
+    }],
+    "experience": [{
+        "experience": "Experience"
+    }],
+    "job": [{
+        "jobStartDate": "7/1993",
+        "jobEndDate": "5/1998",
+        "jobOrganization": "Company One",
+        "jobTitle": "Junior"
+    }, {
+        "jobStartDate": "5/1999",
+        "jobEndDate": "8/2004",
+        "jobOrganization": "Company Two",
+        "jobTitle": "Specialist"
+    }, {
+        "jobStartDate": "8/2004",
+        "jobOrganization": "Company Three",
+        "jobTitle": "Senior"
+    }]
+}
