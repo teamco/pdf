@@ -27,3 +27,27 @@ App.filter('mapToArray', function() {
         return arr;
     };
 });
+
+App.filter('join', function() {
+    return function(value, propertyName, divider) {
+        var result = [],
+            i, l;
+        divider = divider || ' ';
+        if(angular.isArray(value) && propertyName) {
+            for(i=0, l=value.length; i<l; i++) {
+                if(value[i].hasOwnProperty(propertyName)) {
+                    result.push(value[i][propertyName]);
+                }
+            }
+        }
+        return result.join(divider);
+    }
+});
+
+App.filter('default', function() {
+    return function(value, defaultValue) {
+        return typeof value === 'number' ?
+            (isNaN(value) ? defaultValue : value) :
+            (value || defaultValue);
+    }
+});

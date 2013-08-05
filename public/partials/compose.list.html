@@ -1,9 +1,11 @@
 <li ng-repeat="item in $parent.item.items | mapToArray:'id' | orderBy:'order'">
-    <i ng-class="{'delete':item.multiple}"></i
-    ><span ng-repeat="field in item.fields" ng-switch="field.type" class="field-wrapper">
-        {{field.before}}<textarea ng-switch-when="textarea" placeholder="{{field.label}}" name="{{field.name}}" class="field"></textarea>
-        <input ng-switch-when="text" type="{{field.type}}" placeholder="{{field.label}}" name="{{field.name}}" class="field"/>{{field.after}}
-    </span>
-    <ul ng-if="item.items"  ng-include="'partials/compose.list.html'"></ul>
-    <div ng-if="item.multiple" class="add-control"><i></i>{{item.addLabel}}</div>
+    <div ng-repeat="(i, values) in data[item.id]">
+        <i class="{{getItemIconClass(item, i)}}" ng-click="onItemIconClick(item, i)"></i
+        ><span ng-repeat="field in item.fields" ng-switch="field.type" class="field-wrapper">
+            {{field.before}}<textarea ng-switch-when="textarea" placeholder="{{field.label}}" name="{{field.name}}" class="field" ng-model="data[item.id][i][field.name]"></textarea>
+            <input ng-switch-when="text" ng-model="data[item.id][i][field.name]" type="{{field.type}}" placeholder="{{field.label}}" name="{{field.name}}" class="field"/>{{field.after}}
+        </span>
+        <ul ng-if="item.items"  ng-include="'partials/compose.list.html'"></ul>
+    </div>
+    <div ng-if="item.multiple" class="add-control" ng-click="addItem(item)"><i></i>{{item.addLabel}}</div>
 </li>

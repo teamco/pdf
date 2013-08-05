@@ -6,6 +6,7 @@
         <entry key="local">
           <value>
             <LessProfile>
+              <option name="compressOutput" value="true" />
               <option name="cssDirectories">
                 <list>
                   <CssDirectory>
@@ -13,7 +14,7 @@
                   </CssDirectory>
                 </list>
               </option>
-              <option name="lessDirPath" value="$PROJECT_DIR$/app/assets/stylesheets" />
+              <option name="lessDirPath" value="$PROJECT_DIR$/app/assets/less" />
               <option name="name" value="local" />
             </LessProfile>
           </value>
